@@ -6,7 +6,7 @@
 
 [![release level](https://img.shields.io/badge/release%20level-beta-yellow.svg?style=flat)](https://cloud.google.com/terms/launch-stages)
 [![npm version](https://img.shields.io/npm/v/@google-cloud/data-fusion.svg)](https://www.npmjs.org/package/@google-cloud/data-fusion)
-[![codecov](https://img.shields.io/codecov/c/github/googleapis/nodejs-data-fusion/master.svg?style=flat)](https://codecov.io/gh/googleapis/nodejs-data-fusion)
+[![codecov](https://img.shields.io/codecov/c/github/googleapis/nodejs-data-fusion/main.svg?style=flat)](https://codecov.io/gh/googleapis/nodejs-data-fusion)
 
 
 
@@ -15,7 +15,7 @@ datafusion client for Node.js
 
 
 A comprehensive list of changes in each version may be found in
-[the CHANGELOG](https://github.com/googleapis/nodejs-data-fusion/blob/master/CHANGELOG.md).
+[the CHANGELOG](https://github.com/googleapis/nodejs-data-fusion/blob/main/CHANGELOG.md).
 
 * [Cloud Data Fusion Node.js Client API Reference][client-docs]
 * [Cloud Data Fusion Documentation][product-docs]
@@ -32,8 +32,8 @@ Google APIs Client Libraries, in [Client Libraries Explained][explained].
 * [Quickstart](#quickstart)
   * [Before you begin](#before-you-begin)
   * [Installing the client library](#installing-the-client-library)
-
-
+  * [Using the client library](#using-the-client-library)
+* [Samples](#samples)
 * [Versioning](#versioning)
 * [Contributing](#contributing)
 * [License](#license)
@@ -55,6 +55,42 @@ npm install @google-cloud/data-fusion
 ```
 
 
+### Using the client library
+
+```javascript
+// Imports the Google Cloud client library
+
+// remove this line after package is released
+// eslint-disable-next-line node/no-missing-require
+const {DataFusionClient} = require('@google-cloud/data-fusion');
+
+// TODO(developer): replace with your prefered project ID.
+// const projectId = 'my-project'
+
+// Creates a client
+// eslint-disable-next-line no-unused-vars
+const client = new {DataFusionClient}();
+
+//TODO(library generator): write the actual function you will be testing
+async function doSomething() {
+ console.log('DPE! Change this code so that it shows how to use the library! See comments below on structure.')
+ // const [thing] = await client.methodName({
+ // });
+ // console.info(thing);
+}
+doSomething();
+
+```
+
+
+
+## Samples
+
+Samples are in the [`samples/`](https://github.com/googleapis/nodejs-data-fusion/tree/main/samples) directory. Each sample's `README.md` has instructions for running its sample.
+
+| Sample                      | Source Code                       | Try it |
+| --------------------------- | --------------------------------- | ------ |
+| Quickstart | [source code](https://github.com/googleapis/nodejs-data-fusion/blob/main/samples/quickstart.js) | [![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-data-fusion&page=editor&open_in_editor=samples/quickstart.js,samples/README.md) |
 
 
 
@@ -102,7 +138,7 @@ More Information: [Google Cloud Platform Launch Stages][launch_stages]
 
 ## Contributing
 
-Contributions welcome! See the [Contributing Guide](https://github.com/googleapis/nodejs-data-fusion/blob/master/CONTRIBUTING.md).
+Contributions welcome! See the [Contributing Guide](https://github.com/googleapis/nodejs-data-fusion/blob/main/CONTRIBUTING.md).
 
 Please note that this `README.md`, the `samples/README.md`,
 and a variety of configuration files in this repository (including `.nycrc` and `tsconfig.json`)
@@ -114,7 +150,7 @@ to its templates in
 
 Apache Version 2.0
 
-See [LICENSE](https://github.com/googleapis/nodejs-data-fusion/blob/master/LICENSE)
+See [LICENSE](https://github.com/googleapis/nodejs-data-fusion/blob/main/LICENSE)
 
 [client-docs]: https://cloud.google.com/data-fusion
 [product-docs]: https://cloud.google.com/data-fusion/
