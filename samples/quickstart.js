@@ -42,6 +42,7 @@ function main(parent) {
   // const latestPatchOnly = true
 
   // Imports the Datafusion library
+  // eslint-disable-next-line node/no-missing-require
   const {DataFusionClient} = require('@google-cloud/data-fusion').v1;
 
   // Instantiates a client
