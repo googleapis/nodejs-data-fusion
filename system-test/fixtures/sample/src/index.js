@@ -18,7 +18,7 @@
 
 
 /* eslint-disable node/no-missing-require, no-unused-vars */
-const datafusion = require('@google-cloud/datafusion');
+const datafusion = require('@google-cloud/data-fusion');
 
 function main() {
   const dataFusionClient = new datafusion.DataFusionClient();

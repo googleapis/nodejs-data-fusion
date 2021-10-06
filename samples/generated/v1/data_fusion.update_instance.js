@@ -37,7 +37,7 @@ function main() {
   // const updateMask = ''
 
   // Imports the Datafusion library
-  const {DataFusionClient} = require('@google-cloud/datafusion').v1;
+  const {DataFusionClient} = require('@google-cloud/data-fusion').v1;
 
   // Instantiates a client
   const datafusionClient = new DataFusionClient();
